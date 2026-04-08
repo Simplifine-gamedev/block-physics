@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": "block-physics",
+  "version": "1.0.0",
+  "name": "Block Physics",
+  "description": "All non-natural blocks obey gravity. Trees collapse when you break the bottom log. TNT sends blocks flying.",
+  "authors": ["ali77sina"],
+  "contact": {},
+  "license": "MIT",
+  "environment": "*",
+  "entrypoints": {
+    "main": ["com.orca.blockphysics.BlockPhysicsMod"]
+  },
+  "mixins": ["block-physics.mixins.json"],
+  "depends": {
+    "fabricloader": ">=0.16.0",
+    "minecraft": "~1.21.1",
+    "java": ">=21",
+    "fabric-api": "*"
+  }
+}
